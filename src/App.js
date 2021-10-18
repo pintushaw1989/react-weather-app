@@ -9,7 +9,7 @@ import WeatherComponent from "./components/weather-component/WeatherComponent";
 
 const App = () => {
   const API_KEY = "f374781e945c2515b3a1546bd4763670";
-  const url = `http://api.openweathermap.org/data/2.5/forecast?q=Munich,de&APPID=${API_KEY}&cnt=40`;
+  const url = `https://api.openweathermap.org/data/2.5/forecast?q=Munich,de&APPID=${API_KEY}&cnt=40`;
   const [weatherData, setWeatherData] = useState([]);
   const [loading, setLoading] = useState(true);
 
