@@ -1,0 +1,12 @@
+.app-container {
+  overflow-x: hidden;
+  background-color: #2f4454;
+  width: 100%;
+}
+
+.app-loader {
+  height: 100vh;
+  display: flex;
+  justify-self: center;
+  align-items: center;
+}
